@@ -12,21 +12,15 @@ proofs of work (smart contracts) as secure multi-party computations.
 | Use of Fabric in production is **not recommended** in its current state.  Please wait for [an official release][releases] before deploying to production environments. |
 
 ## The Serverless Web
-Fabric implements a peer-to-peer network over which participants may define
-arbitrary types, compose them into more complex programs, and provide meaningful
-services to users — all without requiring a trusted third party.  Rather than
-relying on a server, applications deployed to Fabric are "offline first",
-allowing them to operate independent of network availability or consensus.
+Rather than relying on a server, Fabric implements a peer-to-peer network where applications deployed to Fabric are "offline first," meaning they can operate independently of network availability or consensus.  Within Fabric, participants may define
+arbitrary types, compose them into simple or more complex programs, and provide meaningful services to other users — all without requiring a trusted third party. 
 
 ### An Information Market
-Participants in a Fabric-speaking network may compete for contracts, earning
-digital currency in exchange for processing "work orders" made available to them
-through the peer-to-peer network.  Included is a simple programming language for
-the construction of deterministic, formally-verifiable smart contracts, which
-are then broadcast to network participants for execution.
+Included is a simple programming language for the construction of deterministic, formally-verifiable smart contracts, known as an Application Resource Contracts (ARCs), which are then broadcast to network participants for execution. Participants in a Fabric-speaking network may compete for these ARCs, earning digital currency in exchange for processing "work orders" made available to them
+through the peer-to-peer network. 
 
-Contracts requiring secure execution may be divided into smaller sub-programs,
-broadcast to the network as discrete instructions, and later re-composed into a
+ARCs requiring secure execution may be divided into smaller sub-programs, which are then
+broadcast to the network as discrete instructions, then later re-composed into a
 finalized output.  In this way, Fabric implements secure, multi-party
 computations for general-purpose programs, allowing for a wide range of
 privacy-protecting applications.
@@ -126,25 +120,22 @@ methods for publishing and retrieving documents.  Use `npm run examples` to see
 more.
 
 ## Why?
-Legacy systems are [constantly failing][everything-is-broken],
-resulting in the loss of some really cool things!  Some are rushing to save the
-good stuff, from content (see the great folks at Archive.org) to infrastructure
-and even the applications themselves.  When systems fail, they often take value
-with them as _collateral damage_.  Fabric is an attempt at solving this problem.
+Legacy systems are [constantly failing][everything-is-broken], which means they often take value with them as _collateral damage_.
+Some are rushing to save the "good" stuff- from content (see the great folks at Archive.org) to infrastructure
+and even the applications themselves - but, inevitably, we lose some really cool things.
 
-It's more than content — it's how we approach it, too.  Society has a complex
-relationship with technology, and a good technology is an extension of our
-humanity.  A _great_ technology is one that **improves** our humanity. If we're
-designing systems that must be saved, how can we change our approach so that
+Society has a complex relationship with technology: a good technology is an extension of our
+humanity but a _great_ technology is one that **improves** our humanity. If we're
+designing systems that must be manually saved, how can we change our approach so that
 they survive on their own?
 
-It turns out our technology has been designed around old paradigms, and in some
-cases it _wasn't_ the best idea or design that "won".  Some parts of the world's
-most important infrastructure (the Internet) are incredibly vulnerable, and in
+It turns out that most of today's technology has been designed around old paradigms, and in many
+cases it _wasn't_ the best idea or design that "won".  Because of this, some parts of the world's
+most important infrastructure (such as the Internet) are incredibly vulnerable (!!), and in
 some cases even directly endanger people's **lives**.
 
 It's time we started building software that is **secure by default**, made
-widely available (especially to those in need), and empowering in a deeply
+widely available (especially to those in need) that is empowering in a deeply
 personal way.
 
 ### Who are we?
@@ -158,8 +149,8 @@ offers society.
 We believe that secure decentralized systems play an essential role in creating
 the trust necessary for a future society to rely on infrastructure that operates
 outside of their direct control.  We believe that for such a society to exist,
-the default mode should be `local`, wherein the user is most empowered to effect
-change.
+the default mode should be `local`, wherein _*you*_, the user and the author, is most empowered to effect
+change.  You have the power to publish your own content and right to benefit from its use.
 
 We believe in the power of the people to create better things in collaboration,
 and have ideas about general improvements to quality of life that derive from
@@ -168,10 +159,6 @@ is the famous anecdote, a feeling often evoked upon observing [the beauty in
 coordination][coordination].
 
 ![Flock of Birds][coordination]
-
-We believe that collaboration begins with the author, who has the power to
-publish their own content and right to benefit from its use.  Intermediaries
-offering little or no value should be removed, and efficiencies gained.
 
 ## Other Fabrics
 Several other projects have used the name Fabric, as it's a great way to
